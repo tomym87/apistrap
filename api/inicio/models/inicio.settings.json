@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inicios",
+  "info": {
+    "name": "inicio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "contenido": {
+      "type": "richtext"
+    },
+    "url": {
+      "type": "string"
+    },
+    "imagen": {
+      "type": "string"
+    }
+  }
+}
